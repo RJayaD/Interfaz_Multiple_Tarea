@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/prioridad"
+        android:title="Prioridad"
+        android:icon="@drawable/ic_uno"
+        />
+    <item
+        android:id="@+id/espacios"
+        android:title="Espacios"
+        android:icon="@drawable/ic_dos"
+        />
+    <item
+        android:id="@+id/compartidos"
+        android:title="Compartidos"
+        android:icon="@drawable/ic_tres"
+        />
+    <item
+        android:id="@+id/archivos"
+        android:title="Archivos"
+        android:icon="@drawable/ic_cuantro"
+        />
+</menu>

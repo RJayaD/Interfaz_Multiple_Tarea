@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mngg_allrec"
+        android:icon="@drawable/iconmenu"
+        android:title="Todos los Recibidos" />
+
+
+    <group android:id="@+id/Receb">
+        <item
+            android:id="@+id/mngg_recv"
+            android:icon="@drawable/iconmenu"
+            android:title="Recibidos" />
+    </group>
+    <item
+        android:id="@+id/mngg_all"
+        android:title="TODAS LAS ETIQUETAS">
+    <menu>
+            <item
+                android:id="@+id/mngg_dest"
+                android:icon="@drawable/iconmenu"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/mngg_post"
+                android:icon="@drawable/iconmenu"
+                android:title="Pospuestos"/>
+            <item
+                android:id="@+id/mngg_import"
+                android:icon="@drawable/iconmenu"
+                android:title="Importantes"/>
+            <item
+                android:id="@+id/mngg_env"
+                android:icon="@drawable/iconmenu"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/mngg_prog"
+                android:icon="@drawable/iconmenu"
+                android:title="Programados"/>
+            <item
+                android:id="@+id/mngg_bandeja"
+                android:icon="@drawable/iconmenu"
+                android:title="Bandeja de Salida"/>
+            <item
+                android:id="@+id/mngg_erase"
+                android:icon="@drawable/iconmenu"
+                android:title="Borradores"/>
+        <item
+            android:id="@+id/mngg_todos"
+            android:icon="@drawable/iconmenu"
+            android:title="Todos"/>
+        <item
+            android:id="@+id/mngg_spam"
+            android:icon="@drawable/iconmenu"
+            android:title="Spam"/>
+        <item
+            android:id="@+id/mngg_apps"
+            android:title="APPS DE GOOGLE">
+            <menu>
+            </menu>
+        />
+            <item
+                android:id="@+id/mngg_calend"
+                android:icon="@drawable/iconmenu"
+                android:title="Calendario"/>
+            <item
+                android:id="@+id/mngg_contacts"
+                android:icon="@drawable/iconmenu"
+                android:title="Contactos"/>
+        </item>
+    </menu>
+    </item>
+    <group android:id="@+id/Config">
+        <item
+            android:id="@+id/mngg_config"
+            android:icon="@drawable/iconmenu"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/mngg_help"
+            android:icon="@drawable/iconmenu"
+            android:title="Ayuda y Comentarios"/>
+    </group>
+</menu>
