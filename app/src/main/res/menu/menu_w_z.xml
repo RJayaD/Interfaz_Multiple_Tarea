@@ -3,11 +3,11 @@
     <group android:checkableBehavior="single">
     <item
         android:id="@+id/mn_recent"
-        android:icon="@drawable/iconmenu"
+        android:icon="@drawable/icon_recent"
         android:title="Recent" />
     <item
         android:id="@+id/mn_fav"
-        android:icon="@drawable/iconmenu"
+        android:icon="@drawable/icon_destac"
         android:title="Favorites"/>
     </group>
     <item
@@ -16,19 +16,19 @@
         <menu>
             <item
                 android:id="@+id/mn_myf"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/ixon_borr"
                 android:title="My Files"/>
             <item
                 android:id="@+id/mn_Sto"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_storage"
                 android:title="Storage"/>
             <item
                 android:id="@+id/mn_Pho"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icono_phot"
                 android:title="Photos"/>
             <item
                 android:id="@+id/mn_Music"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_music"
                 android:title="Music"/>
         </menu>
     </item>
@@ -38,15 +38,15 @@
         <menu>
             <item
                 android:id="@+id/mn_Net"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_netw"
                 android:title="Network"/>
             <item
                 android:id="@+id/mn_Drop"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_dropb"
                 android:title="Dropbox"/>
             <item
                 android:id="@+id/mn_GDrive"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_googledrive"
                 android:title="Google Drive"/>
         </menu>
     </item>

@@ -9,16 +9,16 @@
     <item
         android:id="@+id/espacios"
         android:title="Espacios"
-        android:icon="@drawable/ic_dos"
+        android:icon="@drawable/icon_dos_drive"
         />
     <item
         android:id="@+id/compartidos"
         android:title="Compartidos"
-        android:icon="@drawable/ic_tres"
+        android:icon="@drawable/icon_cuatro_drive"
         />
     <item
         android:id="@+id/archivos"
         android:title="Archivos"
-        android:icon="@drawable/ic_cuantro"
+        android:icon="@drawable/icon_tres_drive"
         />
 </menu>

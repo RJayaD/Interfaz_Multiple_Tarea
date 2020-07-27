@@ -6,36 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="124dp"
+        android:layout_height="111dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="76dp"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/logo_drive2"
         android:onClick="btonDrive"
-        android:text="Drive" />
+        android:text="Google Drive"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="96dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_width="124dp"
+        android:layout_height="111dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="185dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="154dp"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/logo_zip"
         android:onClick="btonWinZip"
-        android:text="Z FILE" />
+        android:text="WINZIP"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="473dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="124dp"
+        android:layout_height="111dp"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="489dp"
+        android:autoText="true"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/logo_gmail2"
         android:onClick="btonGmail"
-        android:text="GMAIL" />
+        android:text="GMAIL"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="286dp" />
+
 </RelativeLayout>

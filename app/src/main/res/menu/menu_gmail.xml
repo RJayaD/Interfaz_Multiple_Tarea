@@ -3,14 +3,14 @@
 
     <item
         android:id="@+id/mngg_allrec"
-        android:icon="@drawable/iconmenu"
+        android:icon="@drawable/ixon_recb"
         android:title="Todos los Recibidos" />
 
 
     <group android:id="@+id/Receb">
         <item
             android:id="@+id/mngg_recv"
-            android:icon="@drawable/iconmenu"
+            android:icon="@drawable/icono_allm"
             android:title="Recibidos" />
     </group>
     <item
@@ -19,39 +19,39 @@
     <menu>
             <item
                 android:id="@+id/mngg_dest"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_dest"
                 android:title="Destacados"/>
             <item
                 android:id="@+id/mngg_post"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_recent"
                 android:title="Pospuestos"/>
             <item
                 android:id="@+id/mngg_import"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_impot"
                 android:title="Importantes"/>
             <item
                 android:id="@+id/mngg_env"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_env"
                 android:title="Enviados"/>
             <item
                 android:id="@+id/mngg_prog"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_prog"
                 android:title="Programados"/>
             <item
                 android:id="@+id/mngg_bandeja"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_band"
                 android:title="Bandeja de Salida"/>
             <item
                 android:id="@+id/mngg_erase"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/ixon_borr"
                 android:title="Borradores"/>
         <item
             android:id="@+id/mngg_todos"
-            android:icon="@drawable/iconmenu"
+            android:icon="@drawable/icon_todos"
             android:title="Todos"/>
         <item
             android:id="@+id/mngg_spam"
-            android:icon="@drawable/iconmenu"
+            android:icon="@drawable/icono_spam"
             android:title="Spam"/>
         <item
             android:id="@+id/mngg_apps"
@@ -61,11 +61,11 @@
         />
             <item
                 android:id="@+id/mngg_calend"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_calend"
                 android:title="Calendario"/>
             <item
                 android:id="@+id/mngg_contacts"
-                android:icon="@drawable/iconmenu"
+                android:icon="@drawable/icon_conta"
                 android:title="Contactos"/>
         </item>
     </menu>
@@ -73,11 +73,11 @@
     <group android:id="@+id/Config">
         <item
             android:id="@+id/mngg_config"
-            android:icon="@drawable/iconmenu"
+            android:icon="@drawable/icon_config"
             android:title="Configuración" />
         <item
             android:id="@+id/mngg_help"
-            android:icon="@drawable/iconmenu"
+            android:icon="@drawable/icon_help"
             android:title="Ayuda y Comentarios"/>
     </group>
 </menu>
